@@ -29,6 +29,7 @@ class MainActivityTest {
         Espresso.onView(withId(R.id.btnNext)).perform(click())
         Espresso.onView(withId(R.id.btnNext)).perform(click())
         Espresso.onView(withId(R.id.btnNext)).perform(click())
+        Espresso.onView(withId(R.id.btnNext)).perform(click())
         Espresso.onView(withId(R.id.quoteText))
             .check(matches(withText("Difficulties increase the nearer we get to the goal.")))
     }
